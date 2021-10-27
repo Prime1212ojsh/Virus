@@ -1,0 +1,189 @@
+<HTML>
+<HEAD>
+<TITLE>
+Anti-malware strategies
+</TITLE>
+<STYLE>
+.a{
+WIDTH:8%;
+FLOAT:right;
+}
+.b{
+WIDTH:90%;
+FLOAT:Right;
+}
+.c{
+LIST-STYLE-TYPE:NONE;
+}
+.d{
+FLOAT:Right;
+padding:8px ;
+}
+.e{
+COLOR:yellow;
+FONT-FAMILY:SERIF;
+FONT-WEIGHT:900;
+FONT-VARIENT:SMALL-CAPS; 
+font-size:20px;
+ 
+}
+.f{
+COLOR:BLACK;
+FONT-SIZE:30PX;
+FONT-FAMILY:SERIF;
+FONT-WEIGHT:900;
+FONT-VARIENT:SMALL-CAPS;
+LETTER-SPACING:2PX;
+WORD-SPACING:3PX;
+font-size:22px;
+ 
+}
+a:hover{
+   background-color:black;
+}
+.o{
+       font-size:25px;
+       COLOR:white;
+}
+
+	
+</style>
+
+
+
+
+
+
+
+</head>
+<body bgcolor=purple text=white vlink=yellow>
+<div class=b><ul class=c>
+<li class=d><a href="conta.html" class=e>Contact Us</a></li>
+<li class=d><a href="grey.html" class=e>Grayware</a></li>
+<li class=d><a href="vune.html" class=e>Vulnerabilities to Viruses</a></li>
+<li class=d><a href="infec.html" class=e>Anti-malware strategies</a></li>
+
+</li><li class=d><a href="op.html" class=e>How it harms</a></li>
+<li class=d><a href="TYAND HARM.html" class=e>Types </a>
+<li class=d><a href="home.html" class=e>HOME</a></li></div>
+<div class=o>
+<br><br><H1 align=center>Anti-malware strategies
+</H1><p>
+
+
+<h2>Antivirus software</h2>
+As malware attacks become more frequent, attention has begun to shift from viruses and spyware protection, to malware protection, and programs that have been specifically developed to combat malware. (Other preventive and recovery measures, such as backup and recovery methods, are mentioned in the computer virus article).
+
+<h2>Anti-virus and anti-malware software</h2>
+A specific component of anti-virus and anti-malware software, commonly referred to as an on-access or real-time scanner, hooks deep into the operating system's core or kernel and functions in a manner similar to how certain malware itself would attempt to operate, though with the user's informed permission for protecting the system. Any time the operating system accesses a file, the on-access scanner checks if the file is a 'legitimate' file or not. If the file is identified as malware by the scanner, the access operation will be stopped, the file will be dealt with by the scanner in a pre-defined way (how the anti-virus program was configured during/post installation), and the user will be notified.[citation needed] This may have a considerable performance impact on the operating system, though the degree of impact is dependent on how well the scanner was programmed. The goal is to stop any operations the malware may attempt on the system before they occur, including activities which might exploit bugs or trigger unexpected operating system behavior.
+
+<h2>Anti-malware programs can combat malware in two ways:</h2>
+
+They can provide real time protection against the installation of malware software on a computer. This type of malware protection works the same way as that of antivirus protection in that the anti-malware software scans all incoming network data for malware and blocks any threats it comes across.
+Anti-malware software programs can be used solely for detection and removal of malware software that has already been installed onto a computer. This type of anti-malware software scans the contents of the Windows registry, operating system files, and installed programs on a computer and will provide a list of any threats found, allowing the user to choose which files to delete or keep, or to compare this list to a list of known malware components, removing files that match.[57]
+Real-time protection from malware works identically to real-time antivirus protection: the software scans disk files at download time, and blocks the activity of components known to represent malware. In some cases, it may also intercept attempts to install start-up items or to modify browser settings. Because many malware components are installed as a result of browser exploits or user error, using security software (some of which are anti-malware, though many are not) to "sandbox" browsers (essentially isolate the browser from the computer and hence any malware induced change) can also be effective in helping to restrict any damage done.[58]
+
+<h3>Examples of Microsoft Windows antivirus and anti-malware software include the optional Microsoft Security Essentials[59] (for Windows XP, Vista, and Windows 7) for real-time protection, the Windows Malicious Software Removal Tool[60] (now included with Windows (Security) Updates on "Patch Tuesday", the second Tuesday of each month), and Windows Defender (an optional download in the case of Windows XP, incorporating MSE functionality in the case of Windows 8 and later).[61] Additionally, several capable antivirus software programs are available for free download from the Internet (usually restricted to non-commercial use).[62] Tests found some free programs to be competitive with commercial ones.[62][63][64] Microsoft's System File Checker can be used to check for and repair corrupted system files.
+</h3>
+Some viruses disable System Restore and other important Windows tools such as Task Manager and Command Prompt. Many such viruses can be removed by rebooting the computer, entering Windows safe mode with networking,[65] and then using system tools or Microsoft Safety Scanner.[66]
+
+Hardware implants can be of any type, so there can be no general way to detect them.
+
+<h2>Website security scans</h2>
+As malware also harms the compromised websites (by breaking reputation, blacklisting in search engines, etc.), some websites offer vulnerability scanning.[67][68][69][70] Such scans check the website, detect malware[71], may note outdated software, and may report known security issues.
+
+"Air gap" isolation or "parallel network"
+As a last resort, computers can be protected from malware, and infected computers can be prevented from disseminating trusted information, by imposing an "air gap" (i.e. completely disconnecting them from all other networks). However, malware can still cross the air gap in some situations. For example, removable media can carry malware across the gap.[citation needed]
+
+"AirHopper", "BitWhisper", "GSMem" and "Fansmitter"  are four techniques introduced by researchers that can leak data from air-gapped computers using electromagnetic, thermal and acoustic emissions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 align=center>Stealth techniques</h1>
+In order to avoid detection by users, some viruses employ different kinds of deception. Some old viruses, especially on the DOS platform, make sure that the "last modified" date of a host file stays the same when the file is infected by the virus. This approach does not fool antivirus software, however, especially those which maintain and date cyclic redundancy checks on file changes.[59] Some viruses can infect files without increasing their sizes or damaging the files. They accomplish this by overwriting unused areas of executable files. These are called cavity viruses. For example, the CIH virus, or Chernobyl Virus, infects Portable Executable files. Because those files have many empty gaps, the virus, which was 1 KB in length, did not add to the size of the file.[60] Some viruses try to avoid detection by killing the tasks associated with antivirus software before it can detect them (for example, Conficker). In the 2010s, as computers and operating systems grow larger and more complex, old hiding techniques need to be updated or replaced. Defending a computer against viruses may demand that a file system migrate towards detailed and explicit permission for every kind of file access.[citation needed]
+
+<h2>Read request intercepts</h2>
+While some kinds of antivirus software employ various techniques to counter stealth mechanisms, once the infection occurs any recourse to "clean" the system is unreliable. In Microsoft Windows operating systems, the NTFS file system is proprietary. This leaves antivirus software little alternative but to send a "read" request to Windows files that handle such requests. Some viruses trick antivirus software by intercepting its requests to the operating system. A virus can hide by intercepting the request to read the infected file, handling the request itself, and returning an uninfected version of the file to the antivirus software. The interception can occur by code injection of the actual operating system files that would handle the read request. Thus, an antivirus software attempting to detect the virus will either not be given permission to read the infected file, or, the "read" request will be served with the uninfected version of the same file.[61]
+
+The only reliable method to avoid "stealth" viruses is to "reboot" from a medium that is known to be "clear". Security software can then be used to check the dormant operating system files. Most security software relies on virus signatures, or they employ heuristics.[62][63] Security software may also use a database of file "hashes" for Windows OS files, so the security software can identify altered files, and request Windows installation media to replace them with authentic versions. In older versions of Windows, file cryptographic hash functions of Windows OS files stored in Windows—to allow file integrity/authenticity to be checked—could be overwritten so that the System File Checker would report that altered system files are authentic, so using file hashes to scan for altered files would not always guarantee finding an infection.[64]
+
+<h2>Self-modification</h2>
+See also: Self-modifying code
+Most modern antivirus programs try to find virus-patterns inside ordinary programs by scanning them for so-called virus signatures.[65] Unfortunately, the term is misleading, in that viruses do not possess unique signatures in the way that human beings do. Such a virus "signature" is merely a sequence of bytes that an antivirus program looks for because it is known to be part of the virus. A better term would be "search strings". Different antivirus programs will employ different search strings, and indeed different search methods, when identifying viruses. If a virus scanner finds such a pattern in a file, it will perform other checks to make sure that it has found the virus, and not merely a coincidental sequence in an innocent file, before it notifies the user that the file is infected. The user can then delete, or (in some cases) "clean" or "heal" the infected file. Some viruses employ techniques that make detection by means of signatures difficult but probably not impossible. These viruses modify their code on each infection. That is, each infected file contains a different variant of the virus.[citation needed]
+
+<h2>Encrypted viruses</h2>
+One method of evading signature detection is to use simple encryption to encipher (encode) the body of the virus, leaving only the encryption module and a static cryptographic key in cleartext which does not change from one infection to the next.[66] In this case, the virus consists of a small decrypting module and an encrypted copy of the virus code. If the virus is encrypted with a different key for each infected file, the only part of the virus that remains constant is the decrypting module, which would (for example) be appended to the end. In this case, a virus scanner cannot directly detect the virus using signatures, but it can still detect the decrypting module, which still makes indirect detection of the virus possible. Since these would be symmetric keys, stored on the infected host, it is entirely possible to decrypt the final virus, but this is probably not required, since self-modifying code is such a rarity that it may be reason for virus scanners to at least "flag" the file as suspicious.[citation needed] An old but compact way will be the use of arithmetic operation like addition or subtraction and the use of logical conditions such as XORing,[67] where each byte in a virus is with a constant, so that the exclusive-or operation had only to be repeated for decryption. It is suspicious for a code to modify itself, so the code to do the encryption/decryption may be part of the signature in many virus definitions.[citation needed] A simpler older approach did not use a key, where the encryption consisted only of operations with no parameters, like incrementing and decrementing, bitwise rotation, arithmetic negation, and logical NOT.[67] Some viruses, called polymorphic viruses, will employ a means of encryption inside an executable in which the virus is encrypted under certain events, such as the virus scanner being disabled for updates or the computer being rebooted.[68] This is called cryptovirology. At said times, the executable will decrypt the virus and execute its hidden runtimes, infecting the computer and sometimes disabling the antivirus software.[citation needed]
+
+<h2>Polymorphic code</h2>
+Polymorphic code was the first technique that posed a serious threat to virus scanners. Just like regular encrypted viruses, a polymorphic virus infects files with an encrypted copy of itself, which is decoded by a decryption module. In the case of polymorphic viruses, however, this decryption module is also modified on each infection. A well-written polymorphic virus therefore has no parts which remain identical between infections, making it very difficult to detect directly using "signatures".[69][70] Antivirus software can detect it by decrypting the viruses using an emulator, or by statistical pattern analysis of the encrypted virus body. To enable polymorphic code, the virus has to have a polymorphic engine (also called "mutating engine" or "mutation engine") somewhere in its encrypted body. See polymorphic code for technical detail on how such engines operate.[71]
+
+Some viruses employ polymorphic code in a way that constrains the mutation rate of the virus significantly. For example, a virus can be programmed to mutate only slightly over time, or it can be programmed to refrain from mutating when it infects a file on a computer that already contains copies of the virus. The advantage of using such slow polymorphic code is that it makes it more difficult for antivirus professionals and investigators to obtain representative samples of the virus, because "bait" files that are infected in one run will typically contain identical or similar samples of the virus. This will make it more likely that the detection by the virus scanner will be unreliable, and that some instances of the virus may be able to avoid detection.
+
+<h2>Metamorphic code</h2>
+To avoid being detected by emulation, some viruses rewrite themselves completely each time they are to infect new executables. Viruses that utilize this technique are said to be in metamorphic code. To enable metamorphism, a "metamorphic engine" is needed. A metamorphic virus is usually very large and complex. For example, W32/Simile consisted of over 14,000 lines of assembly language code, 90% of which is part of the metamorphic engine.[72][73]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 align=center>Countermeasures</h1>
+<h2>Antivirus software
+</h2>
+Screenshot of the open source ClamWin antivirus software running in Wine on Ubuntu Linux
+Many users install antivirus software that can detect and eliminate known viruses when the computer attempts to download or run the executable file (which may be distributed as an email attachment, or on USB flash drives, for example). Some antivirus software blocks known malicious websites that attempt to install malware. Antivirus software does not change the underlying capability of hosts to transmit viruses. Users must update their software regularly to patch security vulnerabilities ("holes"). Antivirus software also needs to be regularly updated in order to recognize the latest threats. This is because malicious hackers and other individuals are always creating new viruses. The German AV-TEST Institute publishes evaluations of antivirus software for Windows[82] and Android.[83]
+
+Examples of Microsoft Windows anti virus and anti-malware software include the optional Microsoft Security Essentials[84] (for Windows XP, Vista and Windows 7) for real-time protection, the Windows Malicious Software Removal Tool[85] (now included with Windows (Security) Updates on "Patch Tuesday", the second Tuesday of each month), and Windows Defender (an optional download in the case of Windows XP).[86] Additionally, several capable antivirus software programs are available for free download from the Internet (usually restricted to non-commercial use).[87] Some such free programs are almost as good as commercial competitors.[88] Common security vulnerabilities are assigned CVE IDs and listed in the US National Vulnerability Database. Secunia PSI[89] is an example of software, free for personal use, that will check a PC for vulnerable out-of-date software, and attempt to update it. Ransomware and phishing scam alerts appear as press releases on the Internet Crime Complaint Center noticeboard. Ransomware is a virus that posts a message on the user's screen saying that the screen or system will remain locked or unusable until a ransom payment is made. Phishing is a deception in which the malicious individual pretends to be a friend, computer security expert, or other benevolent individual, with the goal of convincing the targeted individual to reveal passwords or other personal information.
+
+Other commonly used preventive measures include timely operating system updates, software updates, careful Internet browsing (avoiding shady websites), and installation of only trusted software.[90] Certain browsers flag sites that have been reported to Google and that have been confirmed as hosting malware by Google.[91][92]
+
+There are two common methods that an antivirus software application uses to detect viruses, as described in the antivirus software article. The first, and by far the most common method of virus detection is using a list of virus signature definitions. This works by examining the content of the computer's memory (its Random Access Memory (RAM), and boot sectors) and the files stored on fixed or removable drives (hard drives, floppy drives, or USB flash drives), and comparing those files against a database of known virus "signatures". Virus signatures are just strings of code that are used to identify individual viruses; for each virus, the antivirus designer tries to choose a unique signature string that will not be found in a legitimate program. Different antivirus programs use different "signatures" to identify viruses. The disadvantage of this detection method is that users are only protected from viruses that are detected by signatures in their most recent virus definition update, and not protected from new viruses (see "zero-day attack").[93]
+
+A second method to find viruses is to use a heuristic algorithm based on common virus behaviors. This method has the ability to detect new viruses for which antivirus security firms have yet to define a "signature", but it also gives rise to more false positives than using signatures. False positives can be disruptive, especially in a commercial environment, because it may lead to a company instructing staff not to use the company computer system until IT services has checked the system for viruses. This can slow down productivity for regular workers.
+
+<h2>Recovery strategies and methods
+</h2>One may reduce the damage done by viruses by making regular backups of data (and the operating systems) on different media, that are either kept unconnected to the system (most of the time, as in a hard drive), read-only or not accessible for other reasons, such as using different file systems. This way, if data is lost through a virus, one can start again using the backup (which will hopefully be recent).[94] If a backup session on optical media like CD and DVD is closed, it becomes read-only and can no longer be affected by a virus (so long as a virus or infected file was not copied onto the CD/DVD). Likewise, an operating system on a bootable CD can be used to start the computer if the installed operating systems become unusable. Backups on removable media must be carefully inspected before restoration. The Gammima virus, for example, propagates via removable flash drives.[95][96]
+
+<h2>Virus removal
+</h2>Many websites run by antivirus software companies provide free online virus scanning, with limited "cleaning" facilities (after all, the purpose of the websites is to sell antivirus products and services). Some websites—like Google subsidiary VirusTotal.com—allow users to upload one or more suspicious files to be scanned and checked by one or more antivirus programs in one operation.[97][98] Additionally, several capable antivirus software programs are available for free download from the Internet (usually restricted to non-commercial use).[99] Microsoft offers an optional free antivirus utility called Microsoft Security Essentials, a Windows Malicious Software Removal Tool that is updated as part of the regular Windows update regime, and an older optional anti-malware (malware removal) tool Windows Defender that has been upgraded to an antivirus product in Windows 8.
+
+Some viruses disable System Restore and other important Windows tools such as Task Manager and CMD. An example of a virus that does this is CiaDoor. Many such viruses can be removed by rebooting the computer, entering Windows "safe mode" with networking, and then using system tools or Microsoft Safety Scanner.[100] System Restore on Windows Me, Windows XP, Windows Vista and Windows 7 can restore the registry and critical system files to a previous checkpoint. Often a virus will cause a system to "hang" or "freeze", and a subsequent hard reboot will render a system restore point from the same day corrupted. Restore points from previous days should work, provided the virus is not designed to corrupt the restore files and does not exist in previous restore points.[101][102]
+
+<h2>Operating system reinstallation
+</h2>Microsoft's System File Checker (improved in Windows 7 and later) can be used to check for, and repair, corrupted system files.[103] Restoring an earlier "clean" (virus-free) copy of the entire partition from a cloned disk, a disk image, or a backup copy is one solution—restoring an earlier backup disk "image" is relatively simple to do, usually removes any malware, and may be faster than "disinfecting" the computer—or reinstalling and reconfiguring the operating system and programs from scratch, as described below, then restoring user preferences.[94] Reinstalling the operating system is another approach to virus removal. It may be possible to recover copies of essential user data by booting from a live CD, or connecting the hard drive to another computer and booting from the second computer's operating system, taking great care not to infect that computer by executing any infected programs on the original drive. The original hard drive can then be reformatted and the OS and all programs installed from original media. Once the system has been restored, precautions must be taken to avoid reinfection from any restored executable files.[104]
+
+
+</P>
+</div>
+<font  size=5>
+<a href=home.html>Back to home</a>
+</font>
+</body>
+</html>
